@@ -5,9 +5,9 @@ let divide = function() {
 console.log(divide()); // invoke divide.
 
 // square arrow function takes one parameter and multiplies it times itself
-square = num => num * num;
+let square = num => num * num;
 console.log(square(2));
 
 // add arrow function takes two parameters and adds them together
-add = (num1, num2) => num1 + num2;
+let add = (num1, num2) => num1 + num2;
 console.log(add(2, 3));
